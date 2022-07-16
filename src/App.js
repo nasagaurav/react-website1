@@ -22,11 +22,41 @@ function About() {
     </div>
   );
 }
+function Contact() {
+  return (
+    <div className="contact">
+      <h1>Contact us </h1>
+      <p>contact me anytime </p>
+      <input placeholder="name" />
+      <input placeholder="email" />
+      <input placeholder="phone" />
+      <input placeholder="message" />
+      <button>Send Message</button>
+    </div>
+  );
+}
+function Services() {
+  return <div>services</div>;
+}
+function Team() {
+  return <div>team</div>;
+}
+function Price() {
+  return <div>Price</div>;
+}
+function Footer() {
+  return <div>Footer</div>;
+}
 export default function App() {
   return (
     <div>
       <Header />
       <About />
+      <Contact />
+      <Services />
+      <Team />
+      <Price />
+      <Footer />
     </div>
   );
 }

@@ -29,3 +29,21 @@ header a {
   border: 0;
   border-radius: 100px;
 }
+.contact {
+  background: black;
+  color: white;
+  padding: 10px;
+}
+
+.contact input {
+  padding: 10px;
+  margin: 10px;
+  border:0;
+}
+.contact button {
+  border:0;
+  padding: 10px;
+  margin: 10px;
+  background: tomato;
+  color: white;
+}
