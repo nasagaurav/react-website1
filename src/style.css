@@ -27,7 +27,7 @@ header a {
   color: white;
   padding: 10px 40px;
   border: 0;
-  border-radius: 100px;
+  /* border-radius: 100px; */
 }
 .contact {
   background: black;
@@ -63,4 +63,72 @@ header a {
   margin: 1%;
   padding: 1%;
   box-shadow: 0 10px 10px black;
+}
+
+.team {
+  padding: 10px;
+  background: grey;
+  text-align: center;
+}
+.team .flex {
+  display: flex;
+}
+.team .flex .item {
+  width: 21%;
+  padding: 1%;
+  margin: 1%;
+  background: white;
+  box-shadow: 0 10px 10px black;
+}
+.team .flex .item img {
+  width: 100%;
+}
+.team .flex .item button {
+  padding: 10px;
+  border: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background: tomato;
+  color: white;
+}
+
+footer {
+  padding: 2%;
+  text-align: center;
+  background: black;
+  color: white;
+}
+
+.price {
+  padding: 10px;
+  text-align: center;
+  background: silver;
+}
+.price .flex {
+  display: flex;
+}
+.price .flex .item {
+  margin: 1%;
+  width: 33%;
+  background: white;
+  box-shadow: 0 10px 10px black;
+}
+.price .flex .item .h {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: 33px;
+}
+.price .flex .item .b {
+  padding: 20px;
+  line-height: 50px;
+}
+.price .flex .item .f {
+  padding: 20px;
+  background: gray;
+}
+.price .flex .item .f button {
+  padding: 10px 40px;
+  border: 0;
 }

@@ -54,10 +54,10 @@ function Team() {
   const a = [1, 2, 3, 4];
   const item = (
     <div className="item">
-      <img />
+      <img src="https://www.w3schools.com/w3images/team1.jpg" />
       <h3>Employee</h3>
       <h4>CEO</h4>
-      <h5></h5>
+      <h5>Frontend Developer</h5>
       <button>
         <i className="fa fa-facebook"></i>
         <i className="fa fa-instagram"></i>
@@ -67,7 +67,7 @@ function Team() {
     </div>
   );
   return (
-    <div>
+    <div className="team">
       <h1>team</h1>
       <p>meet the team</p>
       <div className="flex">{a.map((x) => item)}</div>
@@ -75,10 +75,31 @@ function Team() {
   );
 }
 function Price() {
-  return <div>Price</div>;
+  const a = [1, 2, 3];
+  const b = [1, 2, 3, 5, 6, 7];
+  const item = (
+    <div className="item">
+      <div className="h">BASIC</div>
+      <div className="b">
+        {b.map((x) => (
+          <li>some benefits {x}</li>
+        ))}
+      </div>
+      <div className="f">
+        <button>buy now</button>
+      </div>
+    </div>
+  );
+  return (
+    <div className="price">
+      <h1>Price</h1>
+      <p>pricing tabs details</p>
+      <div className="flex">{a.map((x) => item)}</div>
+    </div>
+  );
 }
 function Footer() {
-  return <div>Footer</div>;
+  return <footer>Crafted by Gaurav Nasa &trade; &copy;</footer>;
 }
 export default function App() {
   return (
