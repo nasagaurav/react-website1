@@ -36,10 +36,43 @@ function Contact() {
   );
 }
 function Services() {
-  return <div>services</div>;
+  const a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+  const item = (
+    <div className="item">
+      <i className="fa fa-home fa-5x"></i>
+    </div>
+  );
+  return (
+    <div className="services">
+      <h1>services</h1>
+      <p>my services all services</p>
+      <div className="flex">{a.map((x) => item)}</div>
+    </div>
+  );
 }
 function Team() {
-  return <div>team</div>;
+  const a = [1, 2, 3, 4];
+  const item = (
+    <div className="item">
+      <img />
+      <h3>Employee</h3>
+      <h4>CEO</h4>
+      <h5></h5>
+      <button>
+        <i className="fa fa-facebook"></i>
+        <i className="fa fa-instagram"></i>
+        <i className="fa fa-pinterest"></i>
+        <i className="fa fa-linkedin"></i>
+      </button>
+    </div>
+  );
+  return (
+    <div>
+      <h1>team</h1>
+      <p>meet the team</p>
+      <div className="flex">{a.map((x) => item)}</div>
+    </div>
+  );
 }
 function Price() {
   return <div>Price</div>;

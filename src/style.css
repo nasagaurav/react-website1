@@ -38,12 +38,29 @@ header a {
 .contact input {
   padding: 10px;
   margin: 10px;
-  border:0;
+  border: 0;
 }
 .contact button {
-  border:0;
+  border: 0;
   padding: 10px;
   margin: 10px;
   background: tomato;
   color: white;
+}
+
+.services {
+  background: silver;
+  padding: 10px;
+  text-align: center;
+}
+.services .flex {
+  display: flex;
+  flex-flow: wrap;
+}
+.services .flex .item {
+  width: 21%;
+  background-color: white;
+  margin: 1%;
+  padding: 1%;
+  box-shadow: 0 10px 10px black;
 }
